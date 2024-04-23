@@ -1,0 +1,429 @@
+@font-face {
+  font-family: 'Web-app-icon';
+  src:
+    url('fonts/Web-app-icon.ttf?ydt52q') format('truetype'),
+    url('fonts/Web-app-icon.woff?ydt52q') format('woff'),
+    url('fonts/Web-app-icon.svg?ydt52q#Web-app-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon"], [class*=" icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Web-app-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconinfoCircle:before {
+  content: "\e974";
+}
+.icontrendUp:before {
+  content: "\e913";
+}
+.icontrendDown:before {
+  content: "\e90c";
+}
+.iconarrowLeft2:before {
+  content: "\e900";
+}
+.iconarrowRight2:before {
+  content: "\e901";
+}
+.iconarrowLeft:before {
+  content: "\e902";
+}
+.iconarrowRight:before {
+  content: "\e903";
+}
+.iconarrowRightSM:before {
+  content: "\e904";
+}
+.iconrefreshLoadLeft:before {
+  content: "\e905";
+}
+.iconarrowUp:before {
+  content: "\e906";
+}
+.iconarrowDown:before {
+  content: "\e907";
+}
+.iconrefreshRight:before {
+  content: "\e908";
+}
+.iconupdateLeft:before {
+  content: "\e909";
+}
+.iconupdate .path1:before {
+  content: "\e90a";
+  color: rgb(0, 0, 0);
+}
+.iconupdate .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconswap:before {
+  content: "\e90d";
+}
+.iconCoinSwap:before {
+  content: "\e90e";
+}
+.iconlogin:before {
+  content: "\e90f";
+}
+.iconlogOut:before {
+  content: "\e910";
+}
+.iconattach:before {
+  content: "\e911";
+}
+.iconbitoinCoin .path1:before {
+  content: "\e912";
+  color: rgb(0, 0, 0);
+}
+.iconbitoinCoin .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconbitoinCoin .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconbitoinCoin .path4:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconmoneyBagDollar:before {
+  content: "\e916";
+}
+.iconcoinSwap .path1:before {
+  content: "\e917";
+  color: rgb(0, 0, 0);
+}
+.iconcoinSwap .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconcoinSwap .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconcoinSwap .path4:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconbitcoinCoin:before {
+  content: "\e91b";
+}
+.iconflash:before {
+  content: "\e91c";
+}
+.iconfingerPrintScan:before {
+  content: "\e91d";
+}
+.iconcandles:before {
+  content: "\e91e";
+}
+.iconcheckCircle:before {
+  content: "\e91f";
+}
+.iconcheckCircle1:before {
+  content: "\e920";
+}
+.iconshieldDone:before {
+  content: "\e921";
+}
+.iconcoins:before {
+  content: "\e922";
+}
+.iconcalendar:before {
+  content: "\e923";
+}
+.iconcontacts:before {
+  content: "\e924";
+}
+.iconusers:before {
+  content: "\e925";
+}
+.iconprofile:before {
+  content: "\e926";
+}
+.iconuserInformation:before {
+  content: "\e927";
+}
+.icondocs:before {
+  content: "\e928";
+}
+.iconemailLock:before {
+  content: "\e929";
+}
+.iconemailPlusAdd:before {
+  content: "\e92a";
+}
+.iconemailSort:before {
+  content: "\e92b";
+}
+.iconlockOpen:before {
+  content: "\e92c";
+}
+.iconinfoMenu:before {
+  content: "\e92d";
+}
+.iconmoreCircle:before {
+  content: "\e92e";
+}
+.iconhamburgerMenu:before {
+  content: "\e92f";
+}
+.iconinstagram:before {
+  content: "\e930";
+}
+.iconapple:before {
+  content: "\e931";
+}
+.iconxcom:before {
+  content: "\e932";
+}
+.iconandroid:before {
+  content: "\e933";
+}
+.icontelegramCircle:before {
+  content: "\e934";
+}
+.iconfacebookCircle:before {
+  content: "\e935";
+}
+.icongooglePlay:before {
+  content: "\e936";
+}
+.iconlensShutter:before {
+  content: "\e937";
+}
+.iconmobileTouchID:before {
+  content: "\e938";
+}
+.iconnumber1Circle:before {
+  content: "\e939";
+}
+.iconnumberCircle:before {
+  content: "\e93a";
+}
+.iconnumber3Circle:before {
+  content: "\e93b";
+}
+.iconnumber4Circle:before {
+  content: "\e93c";
+}
+.iconpaperUpload:before {
+  content: "\e93d";
+}
+.iconpasswordEdit:before {
+  content: "\e93e";
+}
+.iconnewMassageDot:before {
+  content: "\e93f";
+}
+.iconpen:before {
+  content: "\e940";
+}
+.iconedit:before {
+  content: "\e941";
+}
+.iconplus:before {
+  content: "\e942";
+}
+.iconbankCardDouble:before {
+  content: "\e943";
+}
+.iconremoveCircle1:before {
+  content: "\e944";
+}
+.iconcloseRemove:before {
+  content: "\e945";
+}
+.iconplus2:before {
+  content: "\e946";
+}
+.iconremoveCircle:before {
+  content: "\e947";
+}
+.icondelete:before {
+  content: "\e948";
+}
+.iconsearch:before {
+  content: "\e949";
+}
+.iconsetting:before {
+  content: "\e94a";
+}
+.iconsafebox:before {
+  content: "\e94b";
+}
+.icondiscount:before {
+  content: "\e94c";
+}
+.icondonutBarChart:before {
+  content: "\e94d";
+}
+.iconshoppingBag1 .path1:before {
+  content: "\e94e";
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconshoppingBag1 .path2:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconshoppingBag1 .path3:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconshoppingBag:before {
+  content: "\e951";
+}
+.iconbazar:before {
+  content: "\e952";
+}
+.iconstar1:before {
+  content: "\e953";
+}
+.iconstar:before {
+  content: "\e954";
+}
+.iconsun:before {
+  content: "\e955";
+}
+.iconmoon:before {
+  content: "\e956";
+}
+.iconbankCarrdAdd:before {
+  content: "\e957";
+}
+.iconbankCard:before {
+  content: "\e958";
+}
+.icontrendUpgraphBox:before {
+  content: "\e959";
+}
+.iconvideo:before {
+  content: "\e95a";
+}
+.iconspeakerMegaPhone:before {
+  content: "\e95b";
+}
+.iconringing:before {
+  content: "\e95c";
+}
+.iconphoneCallRinging:before {
+  content: "\e95d";
+}
+.iconheadphone:before {
+  content: "\e95e";
+}
+.iconchartCircle .path1:before {
+  content: "\e95f";
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconchartCircle .path2:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconwalletDoublle:before {
+  content: "\e961";
+}
+.iconwalletOut1 .path1:before {
+  content: "\e962";
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconwalletOut1 .path2:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconwalletOut1 .path3:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconwalletDoublle1 .path1:before {
+  content: "\e965";
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconwalletDoublle1 .path2:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconwalletDoublle1 .path3:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconwalletDoublle1 .path4:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconwalletIncome1 .path1:before {
+  content: "\e969";
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.iconwalletIncome1 .path2:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconwalletIncome1 .path3:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.iconwalletIncome:before {
+  content: "\e96c";
+}
+.iconwalletOut:before {
+  content: "\e96d";
+}
+.iconworld:before {
+  content: "\e96e";
+}
+.iconsmartPhone:before {
+  content: "\e96f";
+}
+.iconcopy:before {
+  content: "\e970";
+}
+.iconcardShield:before {
+  content: "\e971";
+}
+.icongiftCard:before {
+  content: "\e972";
+}
